@@ -1,12 +1,39 @@
-
-/*
+/* begin footer styles */
 .footer {
-    position: relative;
-    margin-top: -150px;
-    height: 10%;
-    bottom: 0;
-    width: 100%;
-    clear: both;
-    background-color: #4c4c4c;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: #4c4c4c;
+  background-size: cover;
+  padding: 0 0 30px 0;
+  border-top: .5rem solid #4b2e83;
+  text-align: center;
+  display: block;
+  align-content:  center;
 }
-*/
+
+footer a { color: white; }
+
+footer a:hover {color: #85754d; }
+
+/* Start Footer Contact Info Styles */
+
+ul.social {
+  list-style-type: none;
+  margin: 0;
+  padding:  0 .3em;
+  overflow: hidden;
+  display: inline-block;
+}
+
+ul.social li {float: left}
+
+ul.social li a {
+  display: inline-block;
+  padding: .5em .3em;
+  text-decoration: none;
+  text-align: center;
+}
+
+
