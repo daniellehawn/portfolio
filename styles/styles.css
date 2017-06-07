@@ -59,13 +59,6 @@ ul.social li a {
   width: auto;
 }
 
-.header-img {
-  width: 100%;
-  height: 100%;
-  background-image: url("images/header-bg.jpg");
-  background-size: cover;
-}
-
 /* Start Top Navigation Styles */
  .navbar-default .navbar-nav > .active{
    color: #fff;
@@ -85,4 +78,8 @@ main {
   display: flex; 
   width: 100%; 
   margin: 1rem; 
+}
+
+header {
+  margin-bottom: 1rem;
 }
