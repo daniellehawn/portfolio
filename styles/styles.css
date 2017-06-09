@@ -25,8 +25,8 @@ footer a { color: white; }
 
 ul.social li a:hover {
   color: #4b2e83; 
-  background-color: #85754d; 
   width: auto;
+  background-color: none;
 }
 
 /* Start Footer Contact Info Styles */
@@ -54,8 +54,8 @@ ul.social li a {
   font-family: 'Lobster', cursive;
   font-size: 2em;
   background: -webkit-linear-gradient(#85754d, #4b2e83);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
   width: auto;
 }
 
@@ -72,7 +72,10 @@ ul.social li a {
       
  }
 
-ul.navbar-nav a:hover { color: #fff !important; background-color: #4c4c4c !important; }
+ul.navbar-nav a:hover { 
+  color: #fff !important; 
+  background-color: #4c4c4c !important; 
+}
 
 main { 
   display: flex; 
@@ -83,3 +86,16 @@ main {
 header {
   margin-bottom: 1rem;
 }
+
+/* Begin Project Carousel Styles */
+.projects { 
+  max-width: 400px; 
+  margin: 0 auto; 
+}
+
+.carousel-control.left, .carousel-control.right{ 
+    background: none !important;
+    filter: progid:none !important;
+}
+.carousel-indicators li, .carousel-indicators .active{ border: .1em solid black; }
+
