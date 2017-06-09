@@ -1,7 +1,7 @@
 var slider = [
   { name: "Winter Warehouse", image: "images/winter-warehouse.png", url:"https://daniellehawn.github.io/html200-ecomm/"},
   { name: "Kitties to Go", image: "images/kitties.png", url:"https://daniellehawn.github.io/week04-practice"},
-  { name: "Favorite Football Team", image: "images/football.png", url:"https:daniellehawn.github.io/local-storage"}
+  { name: "Favorite Football Team", image: "images/football.png", url:"https://daniellehawn.github.io/local-storage/"}
 ];
 
 $(document).ready(function(){  
