@@ -11,7 +11,8 @@ function handleContactForm( evt ) {
   var inquiry = {
     name: name, 
     email: email, 
-    comment: comment
+    comment: comment,
+    status: "new"
   };
   
   createInquiry( inquiry );

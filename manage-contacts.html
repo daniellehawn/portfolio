@@ -48,16 +48,55 @@
     
     <main>
       <section>
+        <h3>My Contact Inquiries</h3>
+        <p>You can manage and modify all contact inquiries to your site!</p>
+        <h4>My Inquiries</h4>
+        <table class="table">
+          <thead class="thead-inverse">
+            <tr>
+              <th>Name</th>
+              <th>Email Address</th>
+              <th>Comments</th>
+              <th>Status</th>
+              <th>Maintain Record</th>
+            </tr>
+          </thead>
+          <tbody id="contacts">
+          </tbody>
+        </table>
+<!--
         <h4>Delete</h4>
       <form>
         <label>ID:</label>
         <input type="text" id="delete-id">
-        <button type="submit" id="delete-submit">Submit</button>
+        <button type="submit" id="delete-submit">Delete Record</button>
       </form>
-        <h3>Show Contacts</h3>
-        <p>Here is where we manage contact info</p>
-        <h4>My Inquiries</h4>
-        <pre id="response"></pre>
+-->
+
+        
+      <div id="modify-record" style="display:none">
+      <form class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" class="form-control">
+        <br />
+        <label for="email">Email Address</label>
+        <input type="email" id="email" class="form-control">
+        <br />
+        <label for="Comments">Comments</label>
+        <input type="text" id="comment" class="form-control">
+        <br />
+        <label for="status">Inquiry Status</label>
+        <select id="status" class="form-control">
+          <option>Choose a Status</option>
+          <option value="new">New</option>
+          <option value="contacted">Contacted</option>
+          <option value="closed">Closed</option>
+        </select>
+        <br />
+        <button type="submit" id="submit">Submit</button>
+        <button type="button" id="cancel">Cancel</button>
+      </form>
+    </div>
         
       </section>
       </main>
@@ -84,6 +123,7 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Local Contact Form script -->
+    <script src="scripts/ManageRestApi.js"></script>
     <script src="scripts/showContacts.js" type="application/javascript"></script>
   </body>
 </html>
