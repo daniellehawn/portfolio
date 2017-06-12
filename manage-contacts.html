@@ -15,7 +15,7 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <script src="https://use.fontawesome.com/dc3783e120.js"></script>
-    <title>Danielle Hawn ~ Projects</title>
+    <title>Danielle Hawn ~ Portfolio</title>
   </head>
   <body>
     <div class="container">  
@@ -38,9 +38,9 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="../portfolio/index.html">Home</a></li>
-          <li class="active"><a href="../portfolio/projects.html">Projects<span class="sr-only">(current)</span></a></li>
+          <li><a href="../portfolio/projects.html">Projects</a></li>
           <li><a href="../portfolio/contact.html">Contact</a></li>
-          <li><a href="../portfolio/manage-contacts.html">Manage Contacts</a></li>
+          <li class="active"><a href="../portfolio/manage-contacts.html">Manage Contacts<span class="sr-only">(current)</span></a></li>
         </ul>
       </div>
       </div>
@@ -48,25 +48,21 @@
     
     <main>
       <section>
-        <h3>Projects</h3>
-        <p>Highlight of work.... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra ultricies purus sit amet vestibulum. Ut ac dignissim nisl. Aliquam id nisi pretium, egestas ante id, elementum tortor. Proin molestie mi nec velit lacinia, quis consequat ligula finibus. Pellentesque mattis ac turpis nec aliquam. In hac habitasse platea dictumst. Nullam at felis consequat, ultrices magna quis, dapibus erat. Fusce volutpat urna ac euismod accumsan. Sed scelerisque dignissim lectus at laoreet. Praesent finibus et ante at lacinia. Ut condimentum libero nunc.</p>
-      <h4>Click on a slide to view the Project...</h4>  
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators"></ol>
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner projects" role="listbox"></div>
-          <!-- Controls -->
-          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
-        </div>
+        <h4>Delete</h4>
+      <form>
+        <label>ID:</label>
+        <input type="text" id="delete-id">
+        <button type="submit" id="delete-submit">Submit</button>
+      </form>
+        <h3>Show Contacts</h3>
+        <p>Here is where we manage contact info</p>
+        <h4>My Inquiries</h4>
+        <pre id="response"></pre>
+        
       </section>
-      
-    </main>
+      </main>
+        
+
     
     <footer class="footer">
       <nav class="navbar navbar-default">
@@ -87,7 +83,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-          <!-- Link to local Javascript -->
-    <script type="text/javascript" src="scripts/projectslider.js"></script>
+    <!-- Local Contact Form script -->
+    <script src="scripts/showContacts.js" type="application/javascript"></script>
   </body>
 </html>
