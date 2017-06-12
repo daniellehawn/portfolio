@@ -99,5 +99,24 @@ header {
 }
 .carousel-indicators li, .carousel-indicators .active{ border: .1em solid black; }
 
+/* Custom Button Styles */
+
 .btn-contact { margin: .25em .25em; }
+
+.btn-primary {
+    background: #4b2e83;
+    border: #4b2e83;
+    color: #ffffff;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #85754d;
+    border: #85754d;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #4b2e83;
+    border: #4b2e83;
+    box-shadow: none;
+}
 
